@@ -1,0 +1,1008 @@
+/* App.css */
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+.brand-logo, h2 {
+  font-family: 'cursive';
+}
+
+.mycard {
+  margin-top: 40px;
+}
+
+.auth-card {
+  padding: 20px;
+  text-align: center;
+  max-width: 400px;
+  margin: 20px auto;
+  border: none; /* Remove border */
+  border-radius: 8px; /* Add border radius for rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.auth-card h2 {
+  font-size: 2em; /* Increase font size */
+}
+.input-field input[type="text"],
+.input-field input[type="password"] {
+  display: block; /* Set display to block */
+  width: 200px;
+  margin: 0 auto; /* Center horizontally */
+  margin-bottom: 10px; /* Add some space between input fields */
+  padding: 10px; /* Add padding to the input fields */
+  box-sizing: border-box; /* Include padding in width calculation */
+  border: none; /* Remove border for sides and top */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+
+
+.btn {
+  background-color: #64b5f6; /* Set button background color */
+  color: white; /* Set button text color */
+  border: none; /* Remove button border */
+  padding: 10px 20px; /* Add padding to the button */
+  cursor: pointer; /* Add cursor pointer */
+  border-radius: 5px; /* Add border radius to the button */
+  width: 200px;
+
+}
+
+.btn:hover {
+  background-color: #42a5f5; /* Change button background color on hover */
+}
+
+.link {
+  text-decoration: none; /* Remove underline */
+  color: #42a5f5; /* Inherit color */
+  
+}
+
+.link:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.forgot-password {
+  text-align: right;
+  width: 300px;
+  margin-bottom: 15px; /* Adjusted margin */
+  margin-top: 15px;
+}
+
+.signup {
+  color: #666; /* Light black shade */
+  font-weight: 100; /* Set font weight to normal */
+}
+
+.forgot-password-login {
+  text-align: center;
+  /* width: 300px; */
+  margin-bottom: 15px; /* Adjusted margin */
+  margin-top: 15px;
+}
+
+.divider-container {
+  display: flex;
+  align-items: center;
+  margin: 10px auto;
+  width: 200px;
+
+}
+
+.divider {
+  flex: 1;
+  height: 1px;
+  background-color: #000; /* Adjust color as needed */
+}
+
+.or-text {
+  margin: 0 10px; /* Adjust margins as needed */
+}
+
+.description {
+  white-space: pre-line;
+  font-weight: 400;
+  font-size: large;
+}
+
+.navbar {
+  border-top: 1px solid black; /* Add top border */
+  border-bottom: 1px solid black; /* Add bottom border */
+  padding: 10px;  /* Add padding for spacing */
+  height: 50px; /* Set height */
+}
+
+.navbar-title {
+  text-align: left;
+  margin-left: 90px;
+  font-size: larger;
+  margin-top: -10px; /* Adjust the negative margin-top to move the title up */
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px; /* Adjust the width as needed */
+  height: 100px; /* Adjust the height as needed */
+  background-color: #eee;
+  border-radius: 50%; /* Make it a circle */
+  margin-left: 140px;
+  margin-bottom: 10px;
+}
+
+.lock-icon {
+  font-size: 24px; /* Adjust the size of the lock icon */
+  color: #555; /* Adjust the color of the lock icon */
+}
+
+.footer {
+  border-top: 1px solid #ccc; /* Add border to the top of the footer */
+  padding-top: 10px; /* Add padding to the top of the footer */
+  text-align: center; /* Center-align the content */
+}
+
+.footer button {
+  background-color: #ccc; /* Set background color to grey */
+  color: #fff; /* Set text color to white */
+  border: none; /* Remove button border */
+  padding: 10px 20px; /* Add padding to the button */
+  border-radius: 5px; /* Add border-radius for rounded corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: background-color 0.3s; /* Add transition effect */
+  width: 300px;
+}
+
+.footer button:hover {
+  background-color: #999; /* Darken background color on hover */
+}
+
+.profile-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc; /* Add border to the bottom of the navbar */
+}
+
+.profile-navbar-left {
+  flex: 1; /* Take up all available space */
+}
+
+.profile-navbar-center {
+  flex: 2; /* Take up twice as much space as the other elements */
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  align-items: center;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  padding: 5px;
+  width: 400px;
+  margin-left: 40px;
+}
+
+.search-box input[type="text"] {
+  border: none;
+  outline: none;
+  background: transparent;
+  margin-left: 5px;
+}
+
+.profile-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.profile-navbar-left h2 {
+  margin: 0;
+}
+
+.profile-navbar-center {
+  flex: 1;
+  text-align: center;
+}
+
+.profile-navbar-right {
+  display: flex;
+  gap: 10px;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.profile-avatar {
+  margin-right: 20px;
+}
+
+.profile-info {
+  flex: 1;
+}
+
+.profile-info h2 {
+  margin: 5px 0;
+}
+
+.profile-stats {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.profile-stats li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.profile-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.profile-button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 10px;
+  background-color: #fafafa;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: column;
+
+}
+
+.item{
+  width: 30%;
+}
+.item {
+  margin-right: 10px; /* Add margin-right for horizontal spacing */
+  margin-bottom: 10px; /* Add margin-bottom for vertical spacing */
+}
+
+.home-card{
+  max-width: 500px;
+  height: max-content;
+  margin: 26px auto;
+  /* border: #000 1px solid; */
+  
+}
+
+.post-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 50px;
+}
+
+.post-item {
+  position: relative;
+  overflow: hidden;
+
+}
+
+.item {
+  width: 100%;
+  height: 200px; /* Set a fixed height for the images */
+  object-fit: cover; /* Ensure the image covers the entire container */
+  display: block;
+}
+
+
+.post-buttons {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.icon-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #333;
+}
+
+/* Header styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.header-left h1 {
+  margin: 0;
+}
+
+.header-right .icon {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+/* Footer styles */
+/* Footer styles */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+
+footer a {
+  color: #fff;
+}
+
+.footer .icon {
+  font-size: 24px;
+}
+/* Header styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.header-right .icon {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+/* Post card styles */
+.home-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.profile-pic {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.card-image img {
+  width: 100%;
+  display: block;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.card-footer .icon {
+  font-size: 20px;
+}
+/* Button styles */
+.follow-button,
+.message-button {
+  background-color: #3897f0;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.follow-button-new {
+  background-color: burlywood;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.follow-button-new:hover {
+  color: blanchedalmond;
+  background-color: #d3a47c; /* Slightly darker shade of burlywood for visual feedback */
+}
+
+
+.message-button {
+  background-color: #0095f6;
+}
+
+/* Highlight styles */
+.highlights {
+  margin-top: 20px;
+}
+
+.highlights {
+  background-color: #fafafa;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.highlights {
+  margin-top: 20px;
+}
+
+.highlights h3 {
+  margin-bottom: 10px;
+}
+
+.highlight-images {
+  display: flex;
+  justify-content: flex-start; /* Align items from the left */
+  gap: 10px; /* Adjust the spacing between images */
+}
+
+.highlight-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.highlight-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.instagram-messages {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.message-list {
+  width: 30%;
+  border-right: 1px solid #ccc;
+  padding: 20px;
+  height: 94%;
+}
+
+.message-list input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+.message-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.message-list li {
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.message-list li.active {
+  background-color: #f0f0f0;
+}
+
+.user-profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user-details h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.user-details p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.last-message {
+  margin-top: 5px;
+}
+
+.chat {
+  width: 70%;
+  padding: 20px;
+}
+
+.chat-header {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.chat-body {
+  height: calc(100vh - 200px);
+  overflow-y: auto;
+}
+
+.chat-body ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.chat-body li {
+  margin-bottom: 10px;
+}
+
+.chat-body p {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  max-width: 70%;
+}
+
+.chat-body span {
+  font-size: 0.8rem;
+  margin-left: 10px;
+}
+
+.chat-footer {
+  margin-top: 20px;
+}
+
+.chat-footer input[type="text"] {
+  width: calc(100% - 80px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+
+.chat-footer button {
+  width: 80px;
+  padding: 10px;
+  border: none;
+  background-color: #007bff;
+  color: black
+}
+
+.chat {
+  width: 70%;
+  padding: 20px;
+}
+
+.chat-header {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+}
+
+.user-profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+
+
+.user-profile h3 {
+  margin: 0;
+}
+
+.user-profile p {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}
+
+.chat-body {
+  overflow-y: auto;
+  max-height: 400px;
+}
+
+.chat-body div {
+  margin-bottom: 20px;
+}
+
+.sent {
+  text-align: right;
+}
+
+.sent p {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.received p {
+  background-color: blue; /* Light green */
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.received span {
+  display: block;
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.chat-footer {
+  margin-top: 20px;
+}
+
+.chat-footer input[type="text"] {
+  width: calc(100% - 80px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+
+.chat-footer button {
+  width: 80px;
+  padding: 10px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.instagram-messages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.message-list {
+  width: 80%;
+  max-width: 800px;
+  min-height: 500px; /* Set minimum height for the entire div */
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.search-bar input[type="text"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.message-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.message-list li {
+  padding: 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+  transition: background-color 0.3s ease;
+}
+
+.message-list li:hover {
+  background-color: #f5f5f5;
+}
+
+.user-profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.user-details h3 {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.user-details p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.last-message p {
+  font-size: 12px;
+  color: #888;
+}
+
+.create-post {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: beige;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(20, 22, 86, 0.1);
+}
+
+.create-post h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload {
+  display: none;
+}
+
+.file-upload-box {
+  width: 100px;
+  height: 100px;
+  border: 2px dashed black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 36px;
+  color: black;
+  background-color: white;
+}
+
+.file-upload-box:hover {
+  background-color: #f0f0f0;
+}
+
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.image-container {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+button[type="submit"]:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+
+/* Container styles */
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Search bar styles */
+.search-bar {
+  display: flex;
+  align-items: center; /* Center items vertically */
+}
+
+input[type="text"] {
+  flex: 1; /* Take remaining space */
+  padding: 10px;
+  margin-right: 10px; /* Add spacing between input and button */
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #3897f0; /* Instagram's primary color */
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2684f5; /* Darker shade of primary color on hover */
+}
+
+button:focus {
+  outline: none;
+}
+
+
+/* .message-container {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+} */
+
+/* styles.css */
+
+/* ... your existing styles ... */
+
+#searchResults {
+  display: flex;
+  flex-wrap: wrap; /* Allow users to wrap to the next line */
+}
+
+.user {
+  flex: 1; /* Take up the full width */
+  max-width: calc(100% - 20px); /* Adjust width and add some spacing between users */
+  margin: 10px; /* Add spacing between users */
+  padding: 20px; /* Add padding to create a box-like appearance */
+  background-color: #fff; /* Background color */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.user img {
+  width: 100%; /* Make the image fill the container */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%; /* Rounded corners for circular image */
+}
+
+.user span {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #262626; /* Instagram's text color */
+}
+
+
+.followers-container {
+  padding: 20px;
+}
+
+.follower-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.follower-box {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 100%; /* Ensure each follower box takes the full width */
+  flex-grow: 1; 
+}
+
+.follower-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.follower-details {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1; /* Ensure the details take up remaining space */
+}
+
+.follower-username {
+  font-weight: bold;
+  margin-bottom: 5px;
+  align-self: flex-start; /* Align username with the top */
+}
+
+.follower-name {
+  color: #888;
+  font-size: 0.9rem;
+}
+
+.icon.liked {
+  color: red; /* Change the heart icon color to red */
+}
+
+.btnNew{
+  cursor: pointer;
+}
+
+
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .auth-card {
+    max-width: 100%; /* Adjust maximum width for smaller screens */
+  }
+}
